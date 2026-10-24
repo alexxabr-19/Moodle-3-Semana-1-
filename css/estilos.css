@@ -1,0 +1,24 @@
+:root {
+    --color-principal: #4a90e2;
+    --color-fondo: #f4f4f4;
+    --espacio: 1rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    margin: 0;
+    padding: var(--espacio);
+}
+
+h1{
+    color: var(--color-principal);
+    margin-bottom: 1rem;
+}
+
+.contenedor {
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
